@@ -1,0 +1,14 @@
+first we created the s3 bucket and added a file in it
+
+then we go to the amazon bedrock to check the model access
+
+then go to IAM to create a custom role and provide it custom inline policies, and then create a new user and provide that user some AWS operated policies and create 2 inline policies to the user
+
+then we go to the AWS sagemaker AI and create a new domain
+
+then we create a knowledge bases from amazon bedrock 
+
+then opensearch service to check if the collection is ready or not
+
+then go to sagemaker studio and create a jupyter space and upload the collab file in it, then run the files and see the output
+

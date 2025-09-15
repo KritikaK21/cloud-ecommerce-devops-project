@@ -1,0 +1,19 @@
+name: CI/CD Demo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Build Docker image (simulated)
+        run: echo "Building Docker image ecommerce-app:latest"
+
+      - name: Run Docker container (simulated)
+        run: echo "Running Docker container ecommerce-app:latest"
