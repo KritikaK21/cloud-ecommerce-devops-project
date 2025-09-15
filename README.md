@@ -147,3 +147,4 @@ cloud-ecommerce-devops/
 
 - Screenshots provide proof of implementation
 *Demonstrates working app, monitoring dashboards, and CI/CD pipeline*
+" "    # adds a blank line at the end
